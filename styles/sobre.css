@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#head{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#head #div_logo_index img{
+    width: 30%;
+    margin-left: 1rem;
+}
+
+#head #pai_elementos_index{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 4rem;
+    justify-content: space-between;
+}
+
+#head #pai_elementos_index a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#head #pai_elementos_index a:hover{
+    color: gray;
+}
+
+#main_sobre{
+    width: 100%;
+    height: 980px;
+    background-color:  rgba(128, 128, 128, 0.158);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 4rem;
+    color: gray;
+}
+
+#main_sobre a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+#main_sobre a:hover{
+    color: gray;
+}
+
+#main_sobre .titulosobre{
+    margin-top: 4rem;
+}
+
+
+#main_sobre .paragrafo_sobre{
+    margin-top: 2rem;
+    color: black;
+    width: 70%;
+}
+
+#footerSobre{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}

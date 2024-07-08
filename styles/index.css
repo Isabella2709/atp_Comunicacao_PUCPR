@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#head{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#head #div_logo_index img{
+    width: 30%;
+    margin-left: 1rem;
+}
+
+#head #pai_elementos_index{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 4rem;
+    justify-content: space-between;
+}
+
+#head #pai_elementos_index a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#head #pai_elementos_index a:hover{
+    color: gray;
+}
+
+
+#main_index{
+    width: 100%;
+    height: 3700px;
+    background-color: rgba(128, 128, 128, 0.158);
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main_index h1{
+    color: grey;
+}
+
+#main_index p{
+    margin-top: 2rem;
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+
+#main_index #imagenstexto{
+    width: 70%;
+    height: 480px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 3
+    rem;
+    
+}
+
+#main_index #imagenstexto .img2{
+    width: 50%;
+}
+
+#main_index #imagenstexto .img3{
+    width: 50%;
+}
+
+#pai_elementos_baixo{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pai_elementos_baixo h1{
+    margin-top: 3rem;
+}
+
+#pai_elementos_baixo p{
+    width: 70%;
+    
+}
+
+#pai_infografico{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15rem;
+}
+
+#pai_infografico img{
+    margin-top: 3rem;
+}
+
+
+#foot_index{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
