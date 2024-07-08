@@ -1,0 +1,1 @@
+Atp blog comunicação aplicada.
